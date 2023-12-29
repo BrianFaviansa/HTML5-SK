@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input baru di html5</title>
+
+    <style>
+        header, nav, main, aside, footer {
+            border: 1px solid black;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        main {
+            float: left;
+            width: 60%;
+        }
+
+        aside {
+            float: left;
+            width: 30%;
+        }
+
+        footer {
+            clear:both;
+        }
+
+        img {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Belajar Programming</h1>
+        <h2>Bersama Sekolah Koding</h2>
+    </header>
+
+    <nav>
+        <li><a href="$">Home</a></li>
+        <li><a href="$">Profil</a></li>
+        <li><a href="$">Kontak</a></li>
+    </nav>
+
+    <main>
+        <article>
+            <form>
+                <input type="search">
+                <input type="email" required> 
+                <input type="date" name="startdate" id="startdate" min="2012-01-01" max="2023-12-30">
+                <input type="color" name="" id="">
+                <input type="range" name="" id="">
+
+                <input type="submit">   
+            </form>
+            
+
+            <figure>
+                <img src="img/HTML5_logo_and_wordmark.svg.png" alt="Logo HTML5">
+                <figcaption>
+                    Gambar Logo HTML5 dari admin
+                    <a href="https://www.youtube.com/">Youtube</a>
+                </figcaption>
+            </figure>
+
+            <dialog open>
+                ini website tutorial ngoding
+            </dialog>
+
+            <details open>
+                <summary>
+                    kita belajar dimana
+                </summary>
+                <p>kita belajar di sekolah koding</p>
+            </details>
+
+            <h1>Daftar Pelajaran</h1>
+
+        <section>
+            <h2>HTML</h2>
+            <p>Membuat struktur website dengan HTML</p>
+        </section>
+        
+        <section>
+            <h2>CSS</h2>
+            <p>Menghias website dengan CSS</p>
+        </section>
+
+        <section>
+            <h2>JavaScript</h2>
+            <p>Membuat website lebih interaktif dengan JavaScript</p>
+        </section>
+        </article>
+        
+    </main>
+
+    <aside>
+        <h2>Daftar Artikel</h2>
+        <a href="#">Intro HTML</a>
+        <a href="#">Mulai belajar website</a>
+        <a href="#">Berguru sampai negeri koding</a>
+    </aside>
+
+    <footer>
+        <p>&copy; 2023 Hibou Koding</p>
+    </footer>
+    
+</body>
+</html>
